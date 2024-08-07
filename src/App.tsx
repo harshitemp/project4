@@ -15,10 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/create-post" element={<CreatePost />} />
-        </Routes>
-      </Router>
-    </div>
+          
   );
 }
 
